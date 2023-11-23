@@ -1,4 +1,4 @@
-<%= content_tag(:div, id: dom_id(asset), class: "gal-item", data: { url: image_path(asset.url_content) }) do %>
+<%= content_tag(:div, id: dom_id(asset), class: "gal-item", data: { url: asset.url_content }) do %>
   <%= link_to '', polymorphic_path(asset, format: :json),
           remote: true,
           method: :delete,
@@ -7,7 +7,9 @@
           class: "fileupload-cancel gal-del" %>
 
   <div class="fileupload-file gal-inner-holder">
-    <div class="img"><%= image_tag(asset.url_thumb, title: asset.filename) %></div>
+    <div class="img">
+      <img title="<%= asset.filename %>" src="<%= asset.url_thumb %>" alt="<%= asset.filename %>">
+    </div>
     <div class="img-data">
       <div class="img-name"><%= asset.filename %></div>
       <div class="time-size">
