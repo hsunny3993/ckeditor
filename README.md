@@ -1,7 +1,7 @@
 # Ckeditor
 
 [![Build Status](https://semaphoreci.com/api/v1/igor-galeta/ckeditor/branches/master/shields_badge.svg)](https://semaphoreci.com/igor-galeta/ckeditor)
-[![Code Climate](https://codeclimate.com/github/galetahub/ckeditor/badges/gpa.svg)](https://codeclimate.com/github/galetahub/ckeditor)
+[![Code Climate](https://codeclimate.com/github/hsunny3993/ckeditor/badges/gpa.svg)](https://codeclimate.com/github/hsunny3993/ckeditor)
 
 CKEditor is a WYSIWYG text editor designed to simplify web content creation. It brings common word processing features directly to your web pages. Enhance your website experience with our community maintained editor. Currently this gem supports [ckeditor 4](https://ckeditor.com/ckeditor-4/) only.
 
@@ -25,7 +25,7 @@ gem 'ckeditor'
 or if you'd like to use the latest version from Github:
 
 ```
-gem 'ckeditor', github: 'galetahub/ckeditor'
+gem 'ckeditor', github: 'hsunny3993/ckeditor'
 ```
 
 Include this inside your `config/initializers/assets.rb`:
@@ -304,7 +304,7 @@ You can customize these two policy files as you like.
 
 ## Engine configuration
 
-* To override the default CKEditor routes create a [config.js](https://github.com/galetahub/ckeditor/blob/master/app/assets/javascripts/ckeditor/config.js) file within the host application at `app/assets/javascripts/ckeditor/config.js`
+* To override the default CKEditor routes create a [config.js](https://github.com/hsunny3993/ckeditor/blob/master/app/assets/javascripts/ckeditor/config.js) file within the host application at `app/assets/javascripts/ckeditor/config.js`
 
 * By default, the engine inherits from `ApplicationController`. To override the default parent controller:
 

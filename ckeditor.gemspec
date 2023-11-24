@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.email = 'galeta.igor@gmail.com'
   s.licenses = ['MIT']
   s.rubyforge_project = 'ckeditor'
-  s.homepage = 'https://github.com/galetahub/ckeditor'
+  s.homepage = 'https://github.com/hsunny3993/ckeditor'
 
   s.files = Dir['{app,config,lib,vendor}/**/*'] + ['MIT-LICENSE', 'Rakefile', 'Gemfile', 'README.md']
   s.test_files = Dir['{test}/**/*']
